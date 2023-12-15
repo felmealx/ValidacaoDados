@@ -1,9 +1,6 @@
 from Cpf import Cpf
+from validate_docbr import CPF
 
-cpf = 15616987913
-cpf =str(cpf)
-obejeto_cpf = Cpf(cpf)
+cpf = CPF()
 
-print(obejeto_cpf)
-
-
+print(cpf.validate("408.561.898-98"))
