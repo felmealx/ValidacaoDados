@@ -1,14 +1,12 @@
-from cpf_cnpj import  CpfCnpj
+from cpf_cnpj import Documento
 
-
-ex_cnpj = "49840338000140"
-cnpj = CpfCnpj(ex_cnpj,"cnpj")
+ex_cnpj = "35379838000112"
+documento = Documento.cria_documento(ex_cnpj)
 
 ex_cpf = "40856189898"
-cpf = CpfCnpj(ex_cpf, "cpf")
+documento1 = Documento.cria_documento(ex_cpf)
 
-
-
-print(cpf)
+print(documento1)
+print(documento)
 
 
