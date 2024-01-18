@@ -1,4 +1,8 @@
+import re
 from Telefones import Telefones
 
-telefone = "56556565"
-Telefonesobj = Telefones(telefone)
+telefone = "551197764098"
+
+tele = Telefones(telefone)
+
+print(tele)
