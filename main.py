@@ -1,11 +1,5 @@
+from datas_br import DatasBr
 
-from Acesso_cep import BuscaEndereco
+cadastro = DatasBr()
 
-cep = "04181160"
-
-obj = BuscaEndereco(cep)
-
-bairro,cidade,uf = obj.acessa_via_cep()
-
-print(bairro,cidade,uf)
-
+print(cadastro.dia_semana())
