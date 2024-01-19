@@ -14,4 +14,10 @@ class DatasBr:
         semana = self.momento_cadastro.weekday()
         return dias[semana+1]
 
+    def data_format(self):
+        formato = self.momento_cadastro.today()
+        f = formato.strftime("%d/%m/%Y %H:%M")
+        return f
+    def __str__(self):
+        return self.data_format()
 
