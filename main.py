@@ -1,8 +1,8 @@
-import re
-from Telefones import Telefones
+from Acesso_cep import BuscaEndereco
 
-telefone = "551197764098"
+cep = "04181160"
 
-tele = Telefones(telefone)
+obj = BuscaEndereco(cep)
 
-print(tele)
+print(obj)
+
