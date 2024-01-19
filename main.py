@@ -1,5 +1,5 @@
 from datas_br import DatasBr
 
-cadastro = DatasBr()
+hoje = DatasBr()
 
-print(cadastro)
+print(hoje.tempo_cadastro())
